@@ -1,0 +1,278 @@
+.header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #11002c;
+}
+
+.left-section{
+   
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    display: inline-block;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 5%;
+
+}
+ .list-group-item{
+    border: none;
+    color: white;
+    background-color: #11002c;
+}
+
+.bg-dark{
+    background-color: #11002c!important;
+}
+.container-fluid{
+    background-color: #11002c;
+}
+.right-section{
+    padding: 15px 0px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+}
+.right-section-events{
+    font-size: 1rem;
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 25px;
+    color: white;
+}
+.right-section-events:hover{
+    color: blueviolet;
+}
+
+.login{
+    margin-right: 20px;
+    height: 35px;
+    width: 60px;
+    background-color: white;
+    border-radius: 5px;
+    border-width: 0px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.login:hover{
+    background-color: rgb(233, 239, 239);
+}
+
+.Events{
+    margin-left: 9%; 
+    margin-top: 80px;
+    font-size: 50px;  
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media(max-width: 992px){
+    #right{
+        display: block;
+    }
+    #right-section-largescrren{
+        display: none;
+    }
+    .header{
+        height: 58px;
+    }
+    .logo img{
+        
+        height: 30px;
+    }
+}
+
+@media(min-width:992px){
+    #right{
+        display: none;
+    }
+    #right-section-largescrren{
+        display: block;
+    }
+}
+
+@media(min-width:900px){
+    .card{
+        margin-right: 8%;
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 700px) {
+    .col {
+        margin: 1%;
+        margin-bottom: 10%;
+        margin-right: 0%;
+        flex-direction: column;
+        flex: 33.33%;
+        /* border-radius: 8%; */
+    }
+    .card{
+        margin-right: .5em;;
+    }
+}
+
+.row{
+    margin: 5em 7%;
+}
+
+.sport-dates{
+    color: gray;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13.8px;
+    padding: 7px 2px 15px 0px;
+}
+
+.card-title{
+    font-weight:600;
+}
+.card:hover{
+    box-shadow: 15px;
+    box-shadow: 0px 5px 10px grey;
+}
+
+.card-img-top{
+    border-radius: .975rem;
+    
+}
+.card-body{
+    padding-left: 3px;
+}
+.card{
+    padding: 15px;
+}
+.register{
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 0px;
+    margin: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+.register:hover{
+    color: blueviolet;
+}
+
+.footer{
+    background-color:#11002c;
+    margin-top: 50px;
+    color: white;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;;
+}
+
+
+.footer-logo{
+    padding: 30px;
+    padding-top: 6rem;
+}
+.SPIRIT{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 35px;
+    padding: 30px;
+}
+.SPIRIT:hover{
+    color: #9966FF;
+}
+
+.fa-lg{
+    padding: 10px 10px;
+    height: 30px;
+}
+
+.insta-facebook-youtube{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+
+.icons{
+    color: white!important;
+    padding: 5px;
+    padding-top: .75rem;
+    display: inline-block;
+    height: 3.3rem;
+    background-color: #1f1139; 
+    border: 1.5px white solid;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icons:hover{
+    background-color: white;
+}
+
+
+
+.icons a:hover{
+    color: #9966FF;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.middle-footer{
+    display: inline-block;
+    padding-top: 6rem;
+    padding-left: 2rem;
+    font-weight: 600;
+}
+
+.middle-footer a:hover{
+    color: #9966FF;
+}
+
+.footer-links{
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    padding: .7rem;
+}
+
+
+.right-footer{ 
+    display: inline-block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+    padding-top: 6rem;
+    margin-right: 2rem;
+}
+
+.right-footer a:hover{
+    color: #9966FF;
+}
+
+.right-footer li, ul{
+    padding-top: 1rem;
+}
+
+@media(max-width:808px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .right-footer{
+        padding-left: 2 rem;
+    }
+}
